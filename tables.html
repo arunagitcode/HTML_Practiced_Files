@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-Tables</title>
+  </head>
+  <body>
+    <table border="" cellspacing="15" cellpadding="15">
+      <thead>
+        <tr>
+          <th>s.no</th>
+          <th>name</th>
+          <th>jobrole</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>anu</td>
+          <td>junior frontend developer</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>aruna</td>
+          <td>junior backend developer</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>anusri</td>
+          <td>junior database developer</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <table border="" cellspacing="10" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Table Heading</th>
+          <th>Table Heading</th>
+          <th>Table Heading</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Table Data</td>
+          <td>Table Data</td>
+          <td>Table Data</td>
+        </tr>
+
+        <tr>
+          <td>Table Data</td>
+          <td>
+            Table Data
+            <!-- nested table -->
+            <table border="" cellspasing="10" cellpadding="10">
+              <thead>
+                <tr>
+                  <th>Table Heading</th>
+                  <th>Table Heading</th>
+                  <th>Table Heading</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Table Data</td>
+                  <td>Table Data</td>
+                  <td>Table Data</td>
+                </tr>
+                <tr>
+                  <td>Table Data</td>
+                  <td>Table Data</td>
+                  <td>Table Data</td>
+                </tr>
+                <tr>
+                  <td>Table Data</td>
+                  <td>Table Data</td>
+                  <td>Table Data</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td>Table Data</td>
+        </tr>
+        <tr>
+          <td>Table Data</td>
+          <td>Table Data</td>
+          <td>Table Data</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+
+    <!-- 06-05-2025 -->
+
+    <table border="" width="90%" cellpadding="10">
+      <thead>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="4">seminar</th>
+        </tr>
+        <tr>
+          <th colspan="2">schedule</th>
+
+          <th colspan="2" rowspan="2">Topic</th>
+        </tr>
+
+        <tr>
+          <th>Begin</th>
+          <th>End</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">8.00am</td>
+          <td rowspan="2">5.00pm</td>
+          <td>introduction to xml</td>
+        </tr>
+        <tr>
+          <td>Validity DTD and Relax NG</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td>8.00am</td>
+          <td>11.00 pm</td>
+          <td rowspan="2">xpath</td>
+        </tr>
+        <tr>
+          <td>11.00pm</td>
+          <td>2.00pm</td>
+        </tr>
+        <tr>
+          <td>2.00 am</td>
+          <td>5.00pm</td>
+          <td>xsl transformations</td>
+        </tr>
+        <tr>
+          <td>wednesday</td>
+          <td>8.00 am</td>
+          <td>12.00pm</td>
+          <td>XSL Formatting Objects</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <table border="" width="80%" cellpadding="10">
+      <caption>
+        exmaple tables using collspan and rowspan
+      </caption>
+      <tr>
+        <td rowspan="2">A</td>
+        <td>B</td>
+        <td rowspan="3">D</td>
+        <td colspan="2">E</td>
+
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>C</td>
+
+        <td rowspan="2">G</td>
+        <td rowspan="2">H</td>
+        <td rowspan="2">I</td>
+      </tr>
+      <tr>
+        <td colspan="2">j</td>
+      </tr>
+      <tr>
+        <td colspan="3">K</td>
+        <td>L</td>
+        <td colspan="2">M</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <table border="" cellpadding="10">
+      <tr>
+        <td colspan="5">Room Tariff</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Room Type</td>
+        <td colspan="2">Deluxe</td>
+        <td colspan="2">Executive</td>
+      </tr>
+      <tr>
+        <td>AC</td>
+        <td>Non-AC</td>
+        <td>AC</td>
+        <td>Non-AC</td>
+      </tr>
+      <tr>
+        <td>1500</td>
+        <td>1000</td>
+        <td>2500</td>
+        <td>1500</td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <table border="" cellpadding="10" width="90%">
+      <tr>
+        <td colspan="2">NAME</td>
+        <td>CLASS</td>
+        <td>School</td>
+      </tr>
+      <tr>
+        <td rowspan="2">mahima</td>
+        <td rowspan="2">gupta</td>
+        <td>11</td>
+        <td rowspan="2">mvm school</td>
+      </tr>
+      <tr>
+        <td>A</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">mahima</td>
+        <td rowspan="2">gupta</td>
+        <td>11</td>
+        <td rowspan="2">mvm school</td>
+      </tr>
+      <tr>
+        <td>B</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">mahima</td>
+        <td rowspan="2">gupta</td>
+        <td>11</td>
+        <td rowspan="2">mvm school</td>
+      </tr>
+      <tr>
+        C
+      </tr>
+    </table>
+    <br /><br />
+
+    <table border="" width="90%" cellpadding="15">
+      <tr>
+        <th>Day Period</th>
+        <th>1 9.30-10.20</th>
+        <th>2 10.20-12.00</th>
+        <th>3 12.00-12.40</th>
+        <th>12.00-12.40</th>
+        <th>4 12.40-1.30</th>
+        <th>5 1.30-2.20</th>
+        <th>6 2.20-3.10</th>
+        <th>7 3.10-4.00</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>eng</td>
+        <td>mat</td>
+        <td>che</td>
+        <td rowspan="5">lunch</td>
+        <td colspan="3">lab</td>
+        <td>play</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td colspan="3">Lab</td>
+        <td>eng</td>
+        <td>che</td>
+        <td>math</td>
+        <td>sprots</td>
+      </tr>
+      <tr>
+        <td>wednesday</td>
+        <td>mat</td>
+        <td>play</td>
+        <td>eng</td>
+        <td>che</td>
+        <td colspan="3">library</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>play</td>
+        <td>eng</td>
+        <td>che</td>
+        <td colspan="3">lab</td>
+        <td>mat</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>play</td>
+        <td>eng</td>
+        <td>che</td>
+        <td colspan="3">lab</td>
+        <td>mat</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <table border="" width="90%" cellpadding="10" cellspacing="0">
+      <tr>
+        <th colspan="2">Purchase Order:9876543***</th>
+        <th colspan="2">Tutorialbrain-10th oct 2025</th>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <b>vendor</b><br />
+          ABC XYZ LTD <br />
+          Dummy Street <br />
+          Buiding 123 <br />
+          hyderabad <br />
+        </td>
+        <td colspan="2">
+          <b>ship to</b> <br />
+          MS DHONI <br />
+          wilson garden <br />
+          United States
+        </td>
+      </tr>
+      <tr>
+        <th>Qty.</th>
+        <th>Item Code.</th>
+        <th>Description</th>
+        <th>Unit Price</th>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>ABCD</td>
+        <td>Pencils</td>
+        <td>20.00</td>
+      </tr>
+      <tr>
+        <td>1000</td>
+        <td>IN877</td>
+        <td>NoteBooks</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td>500</td>
+        <td>IP8675</td>
+        <td>Pens</td>
+        <td>70.00</td>
+      </tr>
+      <tr>
+        <td colspan="3">Subtotal</td>
+        <td>190.00</td>
+      </tr>
+      <tr>
+        <td colspan="2">GST</td>
+        <td>5%</td>
+        <td>9.50</td>
+      </tr>
+      <tr>
+        <td colspan="3">Grand Total</td>
+        <td>$199.50</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <table border="" width="90%" cellpadding="10" cellspacing="0">
+      <tr>
+        <td rowspan="3"></td>
+        <td rowspan="2"></td>
+        <td colspan="2"></td>
+        <td rowspan="3"></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td></td>
+        <td></td>
+        <td rowspan="3"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td rowspan="2"></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <td rowspan="5"></td>
+        <td rowspan="3" colspan="2"></td>
+        <td></td>
+        <td colspan="3"></td>
+      </tr>
+    </table>
+    <br /><br />
+  </body>
+</html>

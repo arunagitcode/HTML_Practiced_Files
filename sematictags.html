@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Semantic tags</title>
+  </head>
+  <body>
+
+    <!-- commented below lines because of confusion on browser-->
+    <!-- <p>welcome to <mark>mark to use highligh the text</mark> in html</p> -->
+    <!-- 
+    <marquee behavior="" direction="">welcome to html </marquee>
+    <blockquote>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officia
+      quibusdam molestiae doloribus, quasi libero qui nam, animi maxime delectus
+      nostrum velit tenetur facere doloremque fuga? Fugiat, sed. Atque,
+      perferendis.
+    </blockquote>
+
+    <pre>
+        <cite> Address:</cite>
+        sikh village 
+        bowenpally
+        secunderabad
+        500009
+    </pre> -->
+
+    <header style="display: flex; justify-content: space-between">
+      <div>
+        <p>logo</p>
+      </div>
+      <nav>
+        <ul
+          style="
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            list-style-type: none;
+          "
+        >
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>CONTACT US</li>
+          <li>SERVICES</li>
+          <li>LOGOUT</li>
+        </ul>
+      </nav>
+    </header>
+    <main style="display: flex; justify-content: space-between">
+      <section>
+        <img src="images/gif_2.gif" alt="" height="100px" />
+      </section>
+      <section>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum velit
+        quos dolorum, sed incidunt itaque illum pariatur fugit sapiente.
+        Suscipit similique eum aut qui doloribus, magnam temporibus molestias
+        voluptate eius?
+      </section>
+      <section>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum velit
+        quos dolorum, sed incidunt itaque illum pariatur fugit sapiente.
+        Suscipit similique eum aut qui doloribus, magnam temporibus molestias
+        voluptate eius?
+      </section>
+      <section>
+        <img src="images/gif_2.gif" alt="" height="100px" />
+      </section>
+    </main>
+    <footer>
+      <p>Author: Hege Refsnes</p>
+      <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+
+    <br /><br /><br />
+
+    <table border=""  cellpadding="0">
+      <tr>
+        <th colspan="2">Fill The Form Below</th>
+      </tr>
+      <tr>
+        <td>
+            <label for="name">Name:</label>
+        </td>
+        <td>
+            <input type="text" name="stdname" id="name" required>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="password">password:</label></td>
+        <td><input type="password" name="password" id="password" required></td>
+      </tr>
+      <tr>
+        <td><label for="feedback">Feedback:</label></td>
+        <td><textarea name="textares" id="textarea" cols="18" rows=""></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label for="subjets">Subjects:</label>
+
+        </td>
+        <td>
+            <input type="checkbox" name="sub" id="subjects" value="web">Web
+            <input type="checkbox" name="sub" id="subjects" value="maths">Maths
+            <input type="checkbox" name="sub" id="subjects" value="gra">Graphics
+            <input type="checkbox" name="sub" id="subjects" value="eng">English
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+            <button type="reset">Reset All</button>
+            <button type="submit">Submit Above Details</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
