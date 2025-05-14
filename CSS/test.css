@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background-color: #02041f;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 0 20px 0 20px;
+
+  .header_text {
+    padding-top: 30px;
+  }
+}
+.box_container {
+  border: 1px solid gray;
+  padding: 30px 0 30px 20px;
+  line-height: 45px;
+  width: 910px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.f_first_line {
+  color: green;
+  font-weight: 600;
+}
+.f_second_line {
+  color: rgb(211, 51, 211);
+}
+
+.second_sec_box {
+  background-color: rgb(210, 159, 29);
+  width: 120px;
+  height: 110px;
+  border: 2px solid orangered;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 0 0 14px;
+}
+.second_sec_box_2{
+    margin-left: 30px;
+}
+.third_box_text {
+  font-size: 16px;
+  font-weight: 200;
+}
+.fourth_sec_box {
+  background-color: blue;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  padding: 30px;
+  margin: 20px 0 10px 20px;
+}
+
+.fifth_box {
+  height: 200px;
+}
+.fifth_sec_box_1 {
+  background-color: rgb(48, 206, 156);
+  float: left;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  padding: 20px 60px;
+  width: 404px;
+  color: white;
+  
+}
+
+
+.fifth_sec_box_2 {
+  float: right;
+}
+.card_1{
+    border: 2px solid gray;
+    border-radius: 6px;
+    width: 290px;
+    padding: 20px 0 20px 20px;
+    margin: 30px 0 0 20px;
+    display: inline-block;
+}
+
+.card_3{
+    margin-top: 20px;
+}
